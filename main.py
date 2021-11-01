@@ -5,6 +5,7 @@ from flask import Flask
 from datetime import datetime
 from flask import render_template
 app = Flask(__name__)
+title = 'M.B. Farms'
 
 
 @app.route('/')
@@ -13,7 +14,7 @@ def home():
     """Renders the home page."""
     return render_template(
         'index.html',
-        title='Home Page',
+        title=title,
         year=datetime.now().year,
     )
 
@@ -34,7 +35,6 @@ def about():
     """Renders the about page."""
     return render_template(
         'about.html',
-        title='About',
+        title='About M.B. Farms',
         year=datetime.now().year,
-        message='Your application description page.'
     )

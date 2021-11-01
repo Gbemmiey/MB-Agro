@@ -1,4 +1,12 @@
+body > div.navbar.navbar-inverse.navbar-fixed-top{
+    border-radius: 20px;
+    border-color: #D65780;
+    background-color: whitesmoke;
+}
+
 body {
+    color: #1A181B;
+    background-color: bisque;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -39,4 +47,18 @@ input[type="checkbox"].input-validation-error {
 
 .validation-summary-valid {
     display: none;
+}
+
+.btn-large{
+    background-color: chocolate;
+}
+
+.jumbotron{
+    background-color: #3F6C51;
+    color: whitesmoke;
+}
+
+.col-md-4{
+    border-block-width: thick;
+    border-radius: 2px;
 }
